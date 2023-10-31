@@ -18,12 +18,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Install dependencies
-        run: npm install
-      - name: Install package globally
-        run: npm install -g .
-      - name: Link project
-        run: npm link
       - run: npm ci
       - run: npm test
 

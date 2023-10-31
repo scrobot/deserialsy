@@ -1,6 +1,6 @@
 {
   "name": "deserialsy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple tool to decode Solana base58-encoded keys.",
   "main": "src/decode.js",
   "scripts": {

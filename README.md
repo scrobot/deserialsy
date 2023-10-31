@@ -1,4 +1,7 @@
 # Deserialsy
+![CI Status](https://github.com/scrobot/deserialsy/workflows/Node.js%20Package/badge.svg)
+[![npm version](https://badge.fury.io/js/deserialsy.svg)](https://badge.fury.io/js/deserialsy)
+
 
 ## Project Description
 Deserialsy is a simple command-line tool designed to decode Solana base58-encoded keys. With just one command, users can quickly convert their Base58 keys into a byte array, revealing the public key and presenting it as a hexadecimal string.
