@@ -1,0 +1,4 @@
+# Project exclude paths
+/src/decode.js
+/node_modules
+/.idea

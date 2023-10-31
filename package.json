@@ -1,0 +1,23 @@
+{
+  "name": "deserialsy",
+  "version": "1.0.0",
+  "description": "A simple tool to decode Solana base58-encoded keys.",
+  "main": "src/decode.js",
+  "scripts": {
+    "decode": "tsc src/decode.ts && node src/decode.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["solana", "decoder", "base58"],
+  "author": "Alex Scrobot",
+  "license": "ISC",
+  "dependencies": {
+    "bs58": "^latest"
+  },
+  "devDependencies": {
+    "@types/node": "^latest",
+    "typescript": "^latest"
+  },
+  "bin": {
+    "deserialsy": "./src/decode.js"
+  }
+}
