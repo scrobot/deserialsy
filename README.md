@@ -50,4 +50,4 @@ If you'd like to contribute to Deserialsy, please fork the repository and use a 
 ## Links
 
 - Project homepage: https://www.npmjs.com/package/deserialsy
-- Repository: 
+- Repository: https://github.com/scrobot/deserialsy
