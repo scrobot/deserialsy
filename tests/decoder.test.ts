@@ -8,7 +8,7 @@ describe('Deserialsy - Base58 Decoder', () => {
 
     const runUtility = (input: string) => {
         try {
-            return execSync(`deserialsy ${input}`, { encoding: 'utf8', stdio: [0, 'pipe', 'pipe'] }).toString();
+            return execSync(`npm run decode -- ${input}`, { encoding: 'utf8', stdio: [0, 'pipe', 'pipe'] }).toString();
         } catch (error: any) {
             return error.stderr.toString();
         }
