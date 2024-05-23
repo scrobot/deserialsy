@@ -1,4 +1,4 @@
-# Deserialsy
+# Solana KeyPair Deserializator
 ![CI Status](https://github.com/scrobot/deserialsy/workflows/Node.js%20Package/badge.svg)
 [![npm version](https://badge.fury.io/js/deserialsy.svg)](https://badge.fury.io/js/deserialsy)
 
