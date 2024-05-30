@@ -5,6 +5,7 @@
   "main": "src/decode.js",
   "scripts": {
     "decode": "tsc src/decode.ts && node src/decode.js",
+    "sign": "tsc src/sign.ts && node src/sign.js",
     "test": "jest"
   },
   "keywords": [
@@ -21,6 +22,7 @@
     "@solana/web3.js": "^1.87.3",
     "@types/jest": "^29.5.7",
     "@types/node": "^14.14.31",
+    "ts-node": "^10.0.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.1",
     "typescript": "^4.2.3"
